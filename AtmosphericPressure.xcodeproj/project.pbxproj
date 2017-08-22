@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BB42631F4C362200330FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB42621F4C362200330FA3 /* AppDelegate.swift */; };
+		F9BB42651F4C362200330FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB42641F4C362200330FA3 /* ViewController.swift */; };
+		F9BB42681F4C362200330FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BB42661F4C362200330FA3 /* Main.storyboard */; };
+		F9BB426A1F4C362200330FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BB42691F4C362200330FA3 /* Assets.xcassets */; };
+		F9BB426D1F4C362200330FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BB426B1F4C362200330FA3 /* LaunchScreen.storyboard */; };
+		F9BB42781F4C362200330FA3 /* AtmosphericPressureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB42771F4C362200330FA3 /* AtmosphericPressureTests.swift */; };
+		F9BB42831F4C362200330FA3 /* AtmosphericPressureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BB42821F4C362200330FA3 /* AtmosphericPressureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BB42741F4C362200330FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BB42571F4C362100330FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BB425E1F4C362100330FA3;
+			remoteInfo = AtmosphericPressure;
+		};
+		F9BB427F1F4C362200330FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BB42571F4C362100330FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BB425E1F4C362100330FA3;
+			remoteInfo = AtmosphericPressure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9BB425F1F4C362200330FA3 /* AtmosphericPressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtmosphericPressure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BB42621F4C362200330FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BB42641F4C362200330FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BB42671F4C362200330FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BB42691F4C362200330FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BB426C1F4C362200330FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9BB426E1F4C362200330FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BB42731F4C362200330FA3 /* AtmosphericPressureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphericPressureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BB42771F4C362200330FA3 /* AtmosphericPressureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphericPressureTests.swift; sourceTree = "<group>"; };
+		F9BB42791F4C362200330FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BB427E1F4C362200330FA3 /* AtmosphericPressureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtmosphericPressureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BB42821F4C362200330FA3 /* AtmosphericPressureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphericPressureUITests.swift; sourceTree = "<group>"; };
+		F9BB42841F4C362200330FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BB425C1F4C362100330FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB42701F4C362200330FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB427B1F4C362200330FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BB42561F4C362100330FA3 = {
+			isa = PBXGroup;
+			children = (
+				F9BB42611F4C362200330FA3 /* AtmosphericPressure */,
+				F9BB42761F4C362200330FA3 /* AtmosphericPressureTests */,
+				F9BB42811F4C362200330FA3 /* AtmosphericPressureUITests */,
+				F9BB42601F4C362200330FA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BB42601F4C362200330FA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB425F1F4C362200330FA3 /* AtmosphericPressure.app */,
+				F9BB42731F4C362200330FA3 /* AtmosphericPressureTests.xctest */,
+				F9BB427E1F4C362200330FA3 /* AtmosphericPressureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BB42611F4C362200330FA3 /* AtmosphericPressure */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB42621F4C362200330FA3 /* AppDelegate.swift */,
+				F9BB42641F4C362200330FA3 /* ViewController.swift */,
+				F9BB42661F4C362200330FA3 /* Main.storyboard */,
+				F9BB42691F4C362200330FA3 /* Assets.xcassets */,
+				F9BB426B1F4C362200330FA3 /* LaunchScreen.storyboard */,
+				F9BB426E1F4C362200330FA3 /* Info.plist */,
+			);
+			path = AtmosphericPressure;
+			sourceTree = "<group>";
+		};
+		F9BB42761F4C362200330FA3 /* AtmosphericPressureTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB42771F4C362200330FA3 /* AtmosphericPressureTests.swift */,
+				F9BB42791F4C362200330FA3 /* Info.plist */,
+			);
+			path = AtmosphericPressureTests;
+			sourceTree = "<group>";
+		};
+		F9BB42811F4C362200330FA3 /* AtmosphericPressureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BB42821F4C362200330FA3 /* AtmosphericPressureUITests.swift */,
+				F9BB42841F4C362200330FA3 /* Info.plist */,
+			);
+			path = AtmosphericPressureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BB425E1F4C362100330FA3 /* AtmosphericPressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BB42871F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressure" */;
+			buildPhases = (
+				F9BB425B1F4C362100330FA3 /* Sources */,
+				F9BB425C1F4C362100330FA3 /* Frameworks */,
+				F9BB425D1F4C362100330FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtmosphericPressure;
+			productName = AtmosphericPressure;
+			productReference = F9BB425F1F4C362200330FA3 /* AtmosphericPressure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BB42721F4C362200330FA3 /* AtmosphericPressureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BB428A1F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressureTests" */;
+			buildPhases = (
+				F9BB426F1F4C362200330FA3 /* Sources */,
+				F9BB42701F4C362200330FA3 /* Frameworks */,
+				F9BB42711F4C362200330FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BB42751F4C362200330FA3 /* PBXTargetDependency */,
+			);
+			name = AtmosphericPressureTests;
+			productName = AtmosphericPressureTests;
+			productReference = F9BB42731F4C362200330FA3 /* AtmosphericPressureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9BB427D1F4C362200330FA3 /* AtmosphericPressureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BB428D1F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressureUITests" */;
+			buildPhases = (
+				F9BB427A1F4C362200330FA3 /* Sources */,
+				F9BB427B1F4C362200330FA3 /* Frameworks */,
+				F9BB427C1F4C362200330FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BB42801F4C362200330FA3 /* PBXTargetDependency */,
+			);
+			name = AtmosphericPressureUITests;
+			productName = AtmosphericPressureUITests;
+			productReference = F9BB427E1F4C362200330FA3 /* AtmosphericPressureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BB42571F4C362100330FA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yama3;
+				TargetAttributes = {
+					F9BB425E1F4C362100330FA3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 462G5P4C3Z;
+						ProvisioningStyle = Automatic;
+					};
+					F9BB42721F4C362200330FA3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 462G5P4C3Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9BB425E1F4C362100330FA3;
+					};
+					F9BB427D1F4C362200330FA3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 462G5P4C3Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9BB425E1F4C362100330FA3;
+					};
+				};
+			};
+			buildConfigurationList = F9BB425A1F4C362100330FA3 /* Build configuration list for PBXProject "AtmosphericPressure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BB42561F4C362100330FA3;
+			productRefGroup = F9BB42601F4C362200330FA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BB425E1F4C362100330FA3 /* AtmosphericPressure */,
+				F9BB42721F4C362200330FA3 /* AtmosphericPressureTests */,
+				F9BB427D1F4C362200330FA3 /* AtmosphericPressureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BB425D1F4C362100330FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB426D1F4C362200330FA3 /* LaunchScreen.storyboard in Resources */,
+				F9BB426A1F4C362200330FA3 /* Assets.xcassets in Resources */,
+				F9BB42681F4C362200330FA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB42711F4C362200330FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB427C1F4C362200330FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BB425B1F4C362100330FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB42651F4C362200330FA3 /* ViewController.swift in Sources */,
+				F9BB42631F4C362200330FA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB426F1F4C362200330FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB42781F4C362200330FA3 /* AtmosphericPressureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BB427A1F4C362200330FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB42831F4C362200330FA3 /* AtmosphericPressureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BB42751F4C362200330FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BB425E1F4C362100330FA3 /* AtmosphericPressure */;
+			targetProxy = F9BB42741F4C362200330FA3 /* PBXContainerItemProxy */;
+		};
+		F9BB42801F4C362200330FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BB425E1F4C362100330FA3 /* AtmosphericPressure */;
+			targetProxy = F9BB427F1F4C362200330FA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BB42661F4C362200330FA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BB42671F4C362200330FA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BB426B1F4C362200330FA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BB426C1F4C362200330FA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BB42851F4C362200330FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BB42861F4C362200330FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BB42881F4C362200330FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9BB42891F4C362200330FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9BB428B1F4C362200330FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtmosphericPressure.app/AtmosphericPressure";
+			};
+			name = Debug;
+		};
+		F9BB428C1F4C362200330FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtmosphericPressure.app/AtmosphericPressure";
+			};
+			name = Release;
+		};
+		F9BB428E1F4C362200330FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AtmosphericPressure;
+			};
+			name = Debug;
+		};
+		F9BB428F1F4C362200330FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 462G5P4C3Z;
+				INFOPLIST_FILE = AtmosphericPressureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yama3.AtmosphericPressureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AtmosphericPressure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BB425A1F4C362100330FA3 /* Build configuration list for PBXProject "AtmosphericPressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BB42851F4C362200330FA3 /* Debug */,
+				F9BB42861F4C362200330FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BB42871F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BB42881F4C362200330FA3 /* Debug */,
+				F9BB42891F4C362200330FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BB428A1F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BB428B1F4C362200330FA3 /* Debug */,
+				F9BB428C1F4C362200330FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BB428D1F4C362200330FA3 /* Build configuration list for PBXNativeTarget "AtmosphericPressureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BB428E1F4C362200330FA3 /* Debug */,
+				F9BB428F1F4C362200330FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BB42571F4C362100330FA3 /* Project object */;
+}
